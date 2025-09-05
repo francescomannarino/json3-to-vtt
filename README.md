@@ -83,23 +83,6 @@ Testo del sottotitolo
 Altro sottotitolo
 ```
 
-## File di Test
-
-Il repository include diversi file di esempio:
-
-- `esempio_sottotitoli.json3`: Esempio base con sottotitoli in italiano
-- `test_caratteri_speciali.json3`: Test con emoji, Unicode e HTML entities
-- `test_edge_cases.json3`: Casi limite (eventi vuoti, sovrapposti, etc.)
-
-## Test
-
-```bash
-# Test con file di esempio
-python json3_to_vtt.py esempio_sottotitoli.json3 -v
-python json3_to_vtt.py test_caratteri_speciali.json3 -v
-python json3_to_vtt.py test_edge_cases.json3 -v
-```
-
 ## Gestione Errori
 
 Lo script gestisce automaticamente:
